@@ -1,0 +1,38 @@
+{
+    "name": "laravel-great-api/router",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Walsh",
+            "email": "alexwalsh.dev@gmail.com",
+            "homepage": "https://walshdev.ru"
+        }
+    ],
+    "homepage": "https://github.com/laravel-great-api/router",
+    "keywords": ["Laravel", "Router"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelGreatApi\\Router\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelGreatApi\\Router\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelGreatApi\\Router\\RouterServiceProvider"
+            ]
+        }
+    }
+}
